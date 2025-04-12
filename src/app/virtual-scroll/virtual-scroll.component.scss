@@ -1,0 +1,15 @@
+.viewport {
+    height: 400px;
+    width: 100%;
+    border: 1px solid lightseagreen;
+    background-color: lightblue;
+    .item{
+      border-bottom: 1px solid lightseagreen;
+      padding: 10px;
+
+      h4 {
+          margin: 0px;
+      }
+     
+    }
+  }

@@ -1,0 +1,8 @@
+<p>manual-scroll</p>
+<div class="scroll-wrapper" (scroll)="onScroll($event)">
+    <div *ngFor="let item of items" class="item">
+        <h4>Title : {{ item.name }}</h4>
+        <p>Description : {{ item.description }}</p>
+    </div>
+    <div *ngIf="loading">Loading more...</div>
+  </div>

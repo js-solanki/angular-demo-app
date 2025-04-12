@@ -1,0 +1,14 @@
+<p>infinite-scroll</p>
+<div  class="scroll-wrapper"
+  infiniteScroll
+  [infiniteScrollDistance]="2"
+  [infiniteScrollThrottle]="50"
+  [scrollWindow]="false"
+  (scrolled)="onScroll()"
+>
+<div *ngFor="let item of items" class="item">
+    <h4>Title : {{ item.name }}</h4>
+    <p>Description : {{ item.description }}</p>
+</div>
+  <div *ngIf="loading">Loading...</div>
+</div>

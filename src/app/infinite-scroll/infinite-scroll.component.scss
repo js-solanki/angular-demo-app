@@ -1,0 +1,14 @@
+.scroll-wrapper {
+    height: 400px;
+    overflow-y: auto;
+    border: 1px solid lightsalmon;
+
+    .item {
+        background-color: lightpink;
+        border-bottom: 1px solid lightsalmon;
+        padding: 10px;
+        h4 {
+            margin: 0px;
+        }
+    }
+}
